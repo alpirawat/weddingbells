@@ -1,0 +1,21 @@
+{
+  "name": "myApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha -R html-cov > coverage.html"
+  },
+  "dependencies": {
+    "angularjs-facebook-sdk": "^1.0.6",
+    "express": "3.5.1",
+    "express-myconnection": "1.0.4",
+    "express-session": "1.6.3",
+    "mocha": "1.20.1",
+    "mysql": "2.2.0"
+  },
+  "devDependencies": {
+    "should": "^4.0.4",
+    "supertest": "^0.13.0"
+  }
+}

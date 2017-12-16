@@ -1,0 +1,16 @@
+<!--BANNER START-->
+<div id="choosetemplates">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="jumbotron">
+                        <div class="choose-template-slick" ng-repeat="slide in slides">
+                            <p class="big" ng-if="slide.captionTop">{{slide.captionTop}}</p>
+                            <h1 class="small">{{slide.heading}}</h1>
+                            <p class="big" ng-if="slide.caption">{{slide.caption}}</p>
+                            <a class="btn btn-banner uppercase"  data-toggle="modal" data-target="#communityModal">Create My Biodata Now</a>
+                        </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--BANNER END-->
